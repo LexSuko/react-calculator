@@ -32,7 +32,8 @@ function Page() {
     setCalc(eval("-"+calc).toString());
   }
   const option2 = () =>{
-    setCalc(calc / 100);
+    setCalc((calc / 100)+"");
+    setResult((calc / 100)+"");
   }
 
   const calculate = () => {

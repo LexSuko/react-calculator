@@ -34,8 +34,6 @@ function Page() {
   const option2 = () =>{
     setCalc(calc / 100);
     setResult(calc / 100);
-    setCalc(eval(calc).toString());
-    setCalc(eval(calc).toString());
   }
 
   const calculate = () => {

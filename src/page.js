@@ -33,7 +33,6 @@ function Page() {
   }
   const option2 = () =>{
     setCalc(calc / 100);
-    setResult(calc / 100);
   }
 
   const calculate = () => {

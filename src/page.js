@@ -67,10 +67,10 @@ function Page() {
             <button onClick={() => updateCalc('2')}>2</button>
             <button onClick={() => updateCalc('3')}>3</button>
             <button onClick={() => updateCalc('+')}>+</button>
-            <button onClick={() => updateCalc('0')}>0</button>
+            <button onClick={() => updateCalc('0')} style={{borderBottomLeftRadius: 16}}>0</button>
             <button onClick={() => updateCalc('.')}>.</button>
 
-            <button onClick={calculate}>=</button>
+            <button onClick={calculate} style={{borderBottomRightRadius: 16}}>=</button>
         </div>
       </div>
     </div>
